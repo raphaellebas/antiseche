@@ -90,7 +90,7 @@ Résultat :
 bandit0@bandit:~$ exit
   logout
   Connection to bandit.labs.overthewire.org closed.
- lua@DESKTOP-QECQM4H  ~ 
+lua@DESKTOP-QECQM4H  ~ 
 ```
 
 ```man```
