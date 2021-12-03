@@ -1,3 +1,0 @@
-```
-	Je suis un test
-```
