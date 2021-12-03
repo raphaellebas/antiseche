@@ -59,7 +59,7 @@ lua@DESKTOP-QECQM4H  ~  pwd                                               
 ```
 
 ```cat```
-Cette commande permet d'afficher et de concaténer le contenu de fichiers
+Cette commande permet d'afficher et de concaténer le contenu de fichiers.
 
 Résultat :
 ```
@@ -68,4 +68,30 @@ Résultat :
 ```
 
 ```clear```
+Cette commande permet de nettoyer le terminal.
 
+Résultat :
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/clear.gif](./images/clear.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/clear.gif)
+
+```ctrl-c```
+Ce raccourci clavier permet de tuer le processus en cours.
+
+Résultat :
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/ctrl-c.gif](./images/ctrl-c.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/ctrl-c.gif)
+
+```exit```
+Cette commande permet de quitter le shell ou une session en cours.
+
+Résultat :
+
+```
+bandit0@bandit:~$ exit
+  logout
+  Connection to bandit.labs.overthewire.org closed.
+ lua@DESKTOP-QECQM4H  ~ 
+```
+
+```man```
+Cette commande permet d'afficher le manuel.
