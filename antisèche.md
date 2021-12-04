@@ -37,8 +37,10 @@ Resultat :
     lua@DESKTOP-QECQM4H  ~  ls                                                                     ✔  1043  23:39:45
     antisèche  git_workspace  powerlevel10k  test 
 ```
+
+> Il se peut que vous avez des fichiers invisible alors ajouter un -a après ls et la listera tout les fichiers y compris ceux qu'on ne voit pas.
     
-```cd```
+```cd chemin/chemin```
 Cette commande permet de changer de dossier (en gros se déplacer dans les dossiers).
 
 Résultat :
@@ -95,3 +97,18 @@ lua@DESKTOP-QECQM4H  ~ 
 
 ```man```
 Cette commande permet d'afficher le manuel.
+
+```mkdir nomdudossier```
+Cette commande permet de créer un dossier.
+
+Résultat :
+
+```
+ lua@DESKTOP-QECQM4H  ~  ls                                                                     ✔  1096  06:48:42
+  antisèche  git_workspace  newfile.html  powerlevel10k  test
+ lua@DESKTOP-QECQM4H  ~  mkdir nouveaudossier                                                   ✔  1097  06:48:45
+ lua@DESKTOP-QECQM4H  ~  ls                                                                     ✔  1098  06:48:55
+  antisèche  git_workspace  newfile.html  nouveaudossier  powerlevel10k  test
+ lua@DESKTOP-QECQM4H  ~ 
+
+```
