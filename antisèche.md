@@ -112,3 +112,22 @@ Résultat :
  lua@DESKTOP-QECQM4H  ~ 
 
 ```
+
+```nano```
+Cette commande permet d'ouvrir l'éditeur de texte intégré dans le terminal.
+
+Résultat : 
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/nano.gif](./images/nano.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/nano.gif)
+
+> Vous pouvez créer un nouveau fichier en faisant juste ```nano newfile``` suivit de son extension de fichier exemple : ```.txt,.html,.css, etc...```.
+
+```rmdir nomdudossier```
+Cette commande permet de supprimer un dossier.
+
+Résultat : 
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/rmdir.gif](./images/rmdir.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/rmdir.gif)
+
+> Si vous avez créer des dossiers dans le dossiers parent et que vous voulez le supprimer faites ```rmdir nomdudossierparent/dossierquejesouhaitesupprimer ``` il supprimera alors le dossier enfant visé.
+
