@@ -204,4 +204,4 @@ Résultat :
   Grâce à Git les devs peuvent héberger leur code appellées forges tels que [Github](https://github.com), [Gitlab](https://gitlab.com/gitlab-org) ou encore [Bitbucket](https://bitbucket.org).
 
 - ## Pourquoi utiliser
-    Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe
+    Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe ainsi que créer des back-up.
