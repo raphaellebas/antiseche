@@ -143,7 +143,7 @@ Résultat :
 [![https://github.com/raphaellebas/antiseche/blob/master/images/removeallfiles.png](./images/removeallfiles.png)](https://github.com/raphaellebas/antiseche/blob/master/images/removeallfiles.png)
 
 ```touch nomdufichier.extension```
-Cette commande permet de créer un fichier
+Cette commande permet de créer un fichier.
 
 Résultat : 
 
@@ -152,13 +152,13 @@ Résultat :
 > Vous pouvez créer plusieurs fichiers en une seul commande ```touch readme.md,index.html,.style.css,script.jss``` il suffit juste de séparé les fichiers avec une virgule.
 
 ```mv nomdufichier chemin/```
-Cette commande permet de déplacer un fichier dans un autre chemin
+Cette commande permet de déplacer un fichier dans un autre chemin.
 
 Résultat : 
 
 [![https://github.com/raphaellebas/antiseche/blob/master/images/move.gif](./images/move.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/move.gif)
 
-> Vous pouvez déplacer le fichier au dossier parent il suffit juste d'ajouter ```../``` à la place d'un nom de dossier
+> Vous pouvez déplacer le fichier au dossier parent il suffit juste d'ajouter ```../``` à la place d'un nom de dossier.
 
 ```mv oldname newname```
 Cette commande permet de rename un fichier
@@ -217,11 +217,25 @@ Cette commande permet de configurer ton nom d'utilisateur.
 Cette commande permet de configurer ton email.
 
 ```git add nomdufichier```
-Cette commande permet d'ajouter le contenu de fichier
+Cette commande permet d'ajouter le contenu de fichier.
+
+```git init```
+Cette commande permet d'initialisé git dans un dossier local.
 
 > ```git add -A permet d'ajouter tout les fichiers à commit```
 
 ```git commit -m "Commentaire" ```
-Cette commande permet d'enregistrer les modifications dans le dépôt
+Cette commande permet d'enregistrer les modifications dans le dépôt.
 
-> Entre "" On y mets souvent les derniers ajouts et/ou modifications.
+> Entre "" on s'en sert pour mettre des commentaire généralement on y mets souvent les derniers ajouts et/ou modifications.
+
+```git push origin master ```
+Cette commande permet de publier des chargements locaux et les charger vers le dépôt.
+
+> git push --> la commande origin --> le remote --> master le dépôt.
+
+```git branch nomdebranch```
+Cette commande permet de créer une branch.
+
+```git branch ```
+Cette commande permet de vérifier la liste des branch.
