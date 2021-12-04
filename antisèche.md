@@ -203,7 +203,7 @@ Résultat :
   Git est un système de contrôle de vesion open source. Sa première version a vu le jour en 2005, conçu par le même créateur de Linux [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds).
   Grâce à Git les devs peuvent héberger leur code appellées forges tels que [Github](https://github.com), [Gitlab](https://gitlab.com/gitlab-org) ou encore [Bitbucket](https://bitbucket.org).
 
-- ## Pourquoi l'utiliser
+- ## Pourquoi utiliser git ?
     Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe ainsi que créer des back-up.
 
 ## Les différentes commandes apprises
