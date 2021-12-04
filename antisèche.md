@@ -206,5 +206,4 @@ Résultat :
 - ## Pourquoi l'utiliser
     Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe ainsi que créer des back-up.
 
-## 
-<span style="color:red">Les différentes commandes apprises</span>
+## Les différentes commandes apprises
