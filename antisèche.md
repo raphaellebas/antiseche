@@ -9,7 +9,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
   - [Les différentes commandes apprises](#les-différentes-commandes-apprises)
   - [C'est quoi Git?](#git)
   - [Pourquoi utiliser git ?](pourquoi-utiliser-git-)
-  - [Les différentes commandes apprises](#les-diff%e%rentes-commandes-apprises)
+  - [Les différentes commandes apprises](#les-différentes-commandes-apprises)
 
 # Linux
   
@@ -36,7 +36,7 @@ Cette commande permet de lister le contenu d'un dossier.
 
 Resultat :
 ``` 
-    lua@DESKTOP-QECQM4H  ~  ls                                                                     ✔  1043  23:39:45
+    lua@DESKTOP-QECQM4H  ~  ls                                                                    
     antisèche  git_workspace  powerlevel10k  test 
 ```
 
@@ -47,10 +47,10 @@ Cette commande permet de changer de dossier (en gros se déplacer dans les dossi
 
 Résultat :
 ```
- lua@DESKTOP-QECQM4H  ~  pwd                                                                    ✔  1044  23:39:47
+ lua@DESKTOP-QECQM4H  ~  pwd                                                                   
    /home/lua
- lua@DESKTOP-QECQM4H  ~  cd antisèche                                                           ✔  1045  23:45:09
- lua@DESKTOP-QECQM4H  ~/antisèche   master 
+ lua@DESKTOP-QECQM4H  ~  cd antisèche                                                          
+ lua@DESKTOP-QECQM4H  ~/antisèche  master 
 ```
 
 ```pwd```
@@ -58,7 +58,7 @@ Cette commande permet d'afficher le chemin du dossier dans lequel on se trouve.
 
 Résultat : 
 ```
-lua@DESKTOP-QECQM4H  ~  pwd                                                                    ✔  1044  23:39:47
+lua@DESKTOP-QECQM4H  ~  pwd                                                                   
   /home/lua
 ```
 
@@ -69,7 +69,7 @@ Cette commande permet d'afficher et de concaténer le contenu de fichiers.
 
 Résultat :
 ```
- lua@DESKTOP-QECQM4H  ~  cat newfile.txt                                                        ✔  1049  23:50:51
+ lua@DESKTOP-QECQM4H  ~  cat newfile.txt                                                       
   Bonjour tout le monde je suis un fichier txt :)
 ```
 
@@ -96,7 +96,7 @@ Résultat :
 bandit0@bandit:~$ exit
   logout
   Connection to bandit.labs.overthewire.org closed.
-lua@DESKTOP-QECQM4H  ~ 
+lua@DESKTOP-QECQM4H  ~ 
 ```
 
 ```man```
@@ -108,12 +108,12 @@ Cette commande permet de créer un dossier.
 Résultat :
 
 ```
- lua@DESKTOP-QECQM4H  ~  ls                                                                     ✔  1096  06:48:42
+ lua@DESKTOP-QECQM4H  ~  ls                                                                    
   antisèche  git_workspace  newfile.html  powerlevel10k  test
- lua@DESKTOP-QECQM4H  ~  mkdir nouveaudossier                                                   ✔  1097  06:48:45
- lua@DESKTOP-QECQM4H  ~  ls                                                                     ✔  1098  06:48:55
+ lua@DESKTOP-QECQM4H  ~  mkdir nouveaudossier                                                  
+ lua@DESKTOP-QECQM4H  ~  ls                                                                    
   antisèche  git_workspace  newfile.html  nouveaudossier  powerlevel10k  test
- lua@DESKTOP-QECQM4H  ~ 
+ lua@DESKTOP-QECQM4H  ~ 
 
 ```
 
@@ -176,10 +176,10 @@ Cette commande permet de chercher un fichier dans un répertoire.
 Résultat : 
 
 ```
-lua@DESKTOP-QECQM4H  ~/antisèche/images   master  ls                                         ✔  1309  10:43:45
+lua@DESKTOP-QECQM4H  ~/antisèche/images  master  ls                                        
   clear.gif  ctrl-c.gif  move.gif  nano.gif  removeallfiles.png  rename.gif  rmdir.gif  terminal.png  touch.gif
-lua@DESKTOP-QECQM4H  ~/antisèche/images   master  cd ../../                                  ✔  1310  10:43:46
-lua@DESKTOP-QECQM4H  ~  find ./antisèche -name clear.gif                                       ✔  1311  10:43:52
+lua@DESKTOP-QECQM4H  ~/antisèche/images master  cd ../../                                 
+lua@DESKTOP-QECQM4H  ~  find ./antisèche -name clear.gif                                      
   ./antisèche/images/clear.gif
 ```
 
@@ -203,5 +203,8 @@ Résultat :
   Git est un système de contrôle de vesion open source. Sa première version a vu le jour en 2005, conçu par le même créateur de Linux [Linus Torvalds](https://fr.wikipedia.org/wiki/Linus_Torvalds).
   Grâce à Git les devs peuvent héberger leur code appellées forges tels que [Github](https://github.com), [Gitlab](https://gitlab.com/gitlab-org) ou encore [Bitbucket](https://bitbucket.org).
 
-- ## Pourquoi utiliser
+- ## Pourquoi l'utiliser
     Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe ainsi que créer des back-up.
+
+## 
+<span style="color:red">Les différentes commandes apprises</span>
