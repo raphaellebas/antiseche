@@ -8,7 +8,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
   - [Pourquoi utiliser le Terminal ?](#pourquoi-utiliser-le-terminal-)
   - [Les différentes commandes apprises](#les-différentes-commandes-apprises)
   - [C'est quoi Git?](#git)
-  - [Pourquoi utiliser git ?](pourquoi-utiliser-git-)
+  - [Pourquoi utiliser git ?](#pourquoi-utiliser-git-)
   - [Les différentes commandes apprises](#les-différentes-commandes-apprises)
 
 # Linux
@@ -207,3 +207,21 @@ Résultat :
     Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe ainsi que créer des back-up.
 
 ## Les différentes commandes apprises
+
+> Avant de découvrir les commandes veuillez vous assuré que vous êtes bien inscris à une **forge** par exemple [Github](https://github.com). :)
+
+```git config --global user.name TonNomUtilisateur ```
+Cette commande permet de configurer ton nom d'utilisateur.
+
+```git config --global user.email JeSuisUnExemple@gmail.com```
+Cette commande permet de configurer ton email.
+
+```git add nomdufichier```
+Cette commande permet d'ajouter le contenu de fichier
+
+> ```git add -A permet d'ajouter tout les fichiers à commit```
+
+```git commit -m "Commentaire" ```
+Cette commande permet d'enregistrer les modifications dans le dépôt
+
+> Entre "" On y mets souvent les derniers ajouts et/ou modifications.
