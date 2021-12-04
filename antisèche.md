@@ -131,3 +131,34 @@ Résultat :
 
 > Si vous avez créer des dossiers dans le dossiers parent et que vous voulez le supprimer faites ```rmdir nomdudossierparent/dossierquejesouhaitesupprimer ``` il supprimera alors le dossier enfant visé.
 
+```rm -v nomduchemin/nomduchemin```
+Cette commmande permet de supprimer tout les fichiers d'un chemin.
+
+Résultat :
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/removeallfiles.png](./images/removeallfiles.png)](https://github.com/raphaellebas/antiseche/blob/master/images/removeallfiles.png)
+
+```touch nomdufichier.extension```
+Cette commande permet de créer un fichier
+
+Résultat : 
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/touch.gif](./images/touch.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/touch.gif)
+
+> Vous pouvez créer plusieurs fichiers en une seul commandes ```touch readme.md,index.html,.style.css,script.jss``` il suffit juste de séparé les fichiers avec une virgule.
+
+```mv nomdufichier chemin/```
+Cette commande permet de déplacer un fichier dans un autre chemin
+
+Résultat : 
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/move.gif](./images/move.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/move.gif)
+
+> Vous pouvez déplacer le fichier au dossier parent il suffit juste d'ajouter ```../``` à la place d'un nom de dossier
+
+```mv oldname newname```
+Cette commande permet de rename un fichier
+
+Résultat :
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/rename.gif](./images/rename.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/rename.gif)
