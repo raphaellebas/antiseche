@@ -2,7 +2,7 @@
 
 Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les commandes [Linux](https://www.linux.org), [Git](https://git-scm.com) et sur d'autres thème vu pendant mon parcours d'apprentissage ou professionnel.
 
-- ## Somaire
+- ## Sommaire
 
   - [Qu'est-ce que c'est Linux ?](#linux)
   - [Pourquoi utiliser le Terminal ?](#pourquoi-utiliser-le-terminal-)
