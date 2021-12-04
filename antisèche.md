@@ -235,7 +235,16 @@ Cette commande permet de publier des chargements locaux et les charger vers le d
 > git push --> la commande origin --> le remote --> master le dépôt.
 
 ```git branch nomdebranch```
-Cette commande permet de créer une branch.
+Cette commande permet de créer une branche.
 
 ```git branch ```
-Cette commande permet de vérifier la liste des branch.
+Cette commande permet de vérifier la liste des branche.
+
+```git switch nomdelabranch```
+Cette commande permet de changer de branche.
+
+```git branch -d nomdelabranch ```
+Cette commande permet de supprimer une branche.
+
+```git fetch <nomduremote> <nomdelabranch> ```
+Cette commande va permettre de fetch uniquement la branche visée.
