@@ -31,6 +31,9 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
 
 ### Les commandes simples MAIS utile !
 
+```cd```
+Cette commande permet de se mettre automatiquement dans son espace utilisateur.
+
 ```ls```
 Cette commande permet de lister le contenu d'un dossier.
 
@@ -246,5 +249,25 @@ Cette commande permet de changer de branche.
 ```git branch -d nomdelabranch ```
 Cette commande permet de supprimer une branche.
 
+
+### Git Fetch
+
+  Git Fetch permet de télécharger des commits des fichier et des refs d'un dépôt distant vers un dépôt local, il est généralement utiliser pour voir sur quoi l'équipe travaille.
+
+> Voici quelques exemple de la commande ```git fetch ```.
+
+```git fetch remote```
+Cette commande permet de fetche toutes les branches du dépôt et télécharge en même temps tous les commits et fichier utile depuis l'autre dépôt
+
 ```git fetch <nomduremote> <nomdelabranch> ```
 Cette commande va permettre de fetch uniquement la branche visée.
+
+
+### Git Merge
+  
+  Git merge permet de reconstituer un historique de **forke** il permet de selectionner des lignes de developpement indépendantes.
+    >Qu'est ce qu'un fork ? un fork constitue une simple copie d'un projet dans votre espace de nom personnel. Cela permet d'y apporter des modification mais publiquement. Ça permet d'y contrinuer de manière plus ouverte. 
+
+> Voici quelques exemple de la commande ```git merge ```
+
+///détailler plus git fetch git remote etc avant de parler de commande.
