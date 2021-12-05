@@ -270,4 +270,3 @@ Cette commande va permettre de fetch uniquement la branche visée.
 
 > Voici quelques exemple de la commande ```git merge ```
 
-///détailler plus git fetch git remote etc avant de parler de commande.
