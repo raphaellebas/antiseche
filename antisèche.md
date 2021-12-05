@@ -361,20 +361,20 @@ Même si une erreur de merge se présente il y a toujours moyen de corriger ça.
 
 ### Git Remote
 
-  La commande ```git remote``` est une interface qui permet de gérer une liste d'entrées distantes stockées dans le fichier ./.git/config du dépôt
+  La commande ```git remote``` est une interface qui permet de gérer une liste d'entrées distantes stockées dans le fichier ./.git/config du dépôt.
 
 ```git remote ```
  Cette commande permet de répertorié vos connexions distantes avec d'autres dépôts.
-> Si vous ajoutez -v comme ceci ```git remote -v ``` c'est la même commande que ```git remote``` mais inclut le lien de votre repos en plus
+> Si vous ajoutez -v comme ceci ```git remote -v ``` c'est la même commande que ```git remote``` mais inclut le lien de votre repos en plus.
 
 ```git remote add <nomdunouveauremote> <urldurepos>```
- Cette commande permet de créer une nouvelle connexion remote dans votre repo
+ Cette commande permet de créer une nouvelle connexion remote dans votre repo.
 
 ```git remote rm nomduremote```
- Cette commande permet de supprimer un remote 
+ Cette commande permet de supprimer un remote. 
 
 ```git remote rename oldname newname ```
- Cette commande permet de renommé une connexion remote
+ Cette commande permet de renommé une connexion remote.
 
 ```git remote show nomduremote``` 
  Cette sous-commande permet d'afficher des informations détaillées sur la configuration du dépôt distant.
