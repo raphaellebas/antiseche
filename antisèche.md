@@ -266,7 +266,7 @@ Cette commande va permettre de fetch uniquement la branche visée.
 ### Git Merge
   
   Git merge permet de reconstituer un historique de **forke** il permet de selectionner des lignes de developpement indépendantes.
-    >Qu'est ce qu'un fork ? un fork constitue une simple copie d'un projet dans votre espace de nom personnel. Cela permet d'y apporter des modification mais publiquement. Ça permet d'y contrinuer de manière plus ouverte. 
+  > Qu'est ce qu'un fork ? un fork constitue une simple copie d'un projet dans votre espace de nom personnel. Cela permet d'y apporter des modification mais publiquement. Ça permet d'y contrinuer de manière plus ouverte. 
 
 > Voici quelques exemple de la commande ```git merge ```
 
