@@ -33,7 +33,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
 
 ```cd```
  Cette commande permet de se mettre automatiquement dans son espace utilisateur.
-> Vous pouvez aussi changer de direction juste en méttant les noms des dossiers ça marche aussi pour revenir en arrière en ajoutant juste ```../ à la place de cd ../```
+> Vous pouvez aussi changer de direction juste en mettant les noms des dossiers ça marche aussi pour revenir en arrière en ajoutant juste ```../ à la place de cd ../```
 
 Résultat :
 
