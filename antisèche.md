@@ -33,6 +33,11 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
 
 ```cd```
  Cette commande permet de se mettre automatiquement dans son espace utilisateur.
+> Vous pouvez aussi changer de direction juste en méttant les noms des dossiers 
+
+Résultat :
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/quickchange.png](./images/quickchange.png)](https://github.com/raphaellebas/antiseche/blob/master/images/quickchange.png)
 
 ```ls```
  Cette commande permet de lister le contenu d'un dossier.
@@ -198,7 +203,53 @@ Résultat :
 
 > ssh --> La commande Secure Shell bandit0--> le nom d'utilisateur bandit.labs.overthewire.org--> l'host -p--> le port 2220--> le numéro de port
 
+## Un fichier à un propriétaire mais aussi un groupe
 
+> On peut bien changer un fichier de propriétaire grâce à la commande **chown** (**ch**ange **own**ner, change le propriétaire) ou de groupe grâce à la commande **chgrp** (change group)
+> Seul le super-utilisateur ou le propriétaire actuel peut utiliser **chown**
+> Remarque : Pour passer en mode super-admin Il faut utiliser la commande ```sudo -i``` il demandera juste le mot de passe que vous avez configuré sur votre terminal
+
+```sudo chown lua nomdufichiertxt ```
+ Maintenant le fichier nomdufichier.txt appartient à l'utilisateur lua.
+
+```sudo chgrp guilde nomdufichier.txt ```
+ Maintenant le fichier nomdufichier.txt apartient au groupe guilde tout les membres du groupe auront accès à ce fichier encore une fois seul le super-admin et le propriétaire actuel peut utiliser chgrp.
+
+ ## Les permissions
+
+> il se peut que vous rencontriez un problème sois en ouvrant un fichier sois en voulant le push avec **Git** pas de soucis on peut changer les droit d'un fichier avec le chmod (Change mode).
+> Pour vérifier celà vous aurez sois un message d'erreur qui parle permissions denied ou en faisant la commande ```ls -l``` alors le fichier concerne auras des ------- avant son nom
+
+1) A qui s'applique le changement
+
+  - u (user, utilisateur) Il représente la catégorie "Propriétaire".
+  - g (group, groupe) Il représente la catégorie "Groupe propriétaire".
+  - o (Others, autres) Il Représente la catégorie "Reste du monde".
+  - a (all, tous) Il représente l'ensemble des 3 catégories.
+
+2) La modification que l'on veut faire 
+  
+  - + : Ajouter
+  - - : Supprimer
+  - = : affectation
+
+3) Le droit qu'on veut modifier
+  
+  - r : read (Lecture)
+  - w : write (Ecriture)
+  - x : e**x**ecute (Exécution)
+  - X : e**X**ecute (Exécution concerne uniquement les répertoires qu'ils aient déjà une autorisation d'éxécution ou pas et les fichiers qui ont déjà une autorisation d'éxécution pour l'une des catégories d'utilisateurs.)
+
+> Voici quelques commandes d'exemples
+
+```chmod a+w nomdufichier.txt ```
+ Dans cette commande on peut voir que je lui ajoute des droits au fichier nomdufichier.txt grâce au **+** le droit d'écrire grâce à **w** et se droit d'applique au 3 catégories grâce à **a**.
+
+```chmod o-rwx nomdufichier.txt```
+ Dans cette commande on peut voir que je lui retire des droits au fichier nomdufichier.txt grâce au **-** le droit de lire grâce au **r** d'écrire grâce au **w** et je lui retire également le droit de l'éxécuté grâce au **x** et ça s'applique au groupe others (autres) grâce au **o**.
+
+```chmod u=rx ```
+ Dans cette commande on peut voir que je lui affecte des droits au fichier nomdufichier.txt grâce au **=** le droit de lire grâce au **r** et le l'éxécuté grâce au **x**.
 
 
 # Git
@@ -289,3 +340,18 @@ Même si une erreur de merge se présente il y a toujours moyen de corriger ça.
 ```git diff```
  Cette commande permet de trouver les différences entre les états d'un dépôt de fichier elle est très utile pour prévoir et éviter les conflits de merge !
 
+```git checkout```
+ Cette commande permet d'annuler des changements apportés à des fichier ou de modifier des branches.
+
+```git reset --mixed```
+ Cette commande permet d'annuler des changements apportés au répertoire de travail et à la **Staging** area.
+
+> La staging area (En Français Zone de Transit) est une zone intermédiaire entre ton dépôt local et ton dépôt en ligne ([Github](https://github.com), [Gitlab](https://gitlab.com/gitlab-org), [Bitbucket](https://bitbucket.org))
+
+### Annuler un merge durant un conflit Git.
+
+```git merge --abort```
+ Cette commande permet de mettre fin au processus de merge et réinitialisera la branche à son état antérieur au merge.
+
+```git reset```
+ Cette commande permet de réinitialiser les fichiers en conflit, on peut l'utiliser durant un conflit de merge.
