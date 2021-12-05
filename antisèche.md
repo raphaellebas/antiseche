@@ -219,11 +219,11 @@ Résultat :
 ```git config --global user.email JeSuisUnExemple@gmail.com```
  Cette commande permet de configurer ton email.
 
+ ```git init```
+ Cette commande permet d'initialisé git dans un dossier local.
+
 ```git add nomdufichier```
  Cette commande permet d'ajouter le contenu de fichier.
-
-```git init```
- Cette commande permet d'initialisé git dans un dossier local.
 
 > ```git add -A permet d'ajouter tout les fichiers à commit```
 
@@ -277,4 +277,15 @@ Cette commande permet de merge une branche visée dans la branche courante.
 
 #### Don't Give UP !
 Même si une erreur de merge se présente il y a toujours moyen de corriger ça. 
+
+> Voici une liste de commandes qui peuvent aider à résoudre un conflit de merge.
+
+```git status ```
+ Cette commande permet d'identifier les fichier en conflits durant un merge.
+
+```git log --merge```
+ Cette commande permet de généré un journal qui contient une liste de commit en conflits entre les branches en merge.
+
+```git diff```
+ Cette commande permet de trouver les différences entre les états d'un dépôt de fichier elle est très utile pour prévoir et éviter les conflits de merge !
 
