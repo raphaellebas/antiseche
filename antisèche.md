@@ -230,9 +230,9 @@ Résultat :
 
 2) La modification que l'on veut faire 
   
-  -   + : Ajouter
-  -   - : Supprimer
-  -   = : affectation
+  -   "+ : Ajouter"
+  -   "- : Supprimer"
+  -   "= : affectation"
 
 3) Le droit qu'on veut modifier
   
