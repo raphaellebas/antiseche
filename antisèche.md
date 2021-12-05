@@ -355,3 +355,6 @@ Même si une erreur de merge se présente il y a toujours moyen de corriger ça.
 
 ```git reset```
  Cette commande permet de réinitialiser les fichiers en conflit, on peut l'utiliser durant un conflit de merge.
+
+ [Sommaire](#sommaire)
+ 
