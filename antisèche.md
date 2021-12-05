@@ -25,7 +25,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
      L'utilité du Terminal facilite la vie des devs, il permet ainsi être plus pointieux sur des commandes qu'on ne pourrait pas forcément lancer en interface graphique.
      Il rend aussi également plus rapide le lancement des programmes vu qu'il ne possède pas d'interface graphique.
      
-## Les différentes commandes apprises
+## Les différentes commandes apprises sur un terminal
 
 > Ps : Ceci est les différentes commandes que j'ai pu apprendre durant mon pourcours d'apprentissage ou professionnel.
 
@@ -209,7 +209,7 @@ Résultat :
 - ## Pourquoi utiliser git ?
     Git est un outil primordial dans le monde du développement, il permet de facilité le travail en équipe ainsi que créer des back-up.
 
-## Les différentes commandes apprises
+## Les différentes commandes apprises sur git
 
 > Avant de découvrir les commandes veuillez vous assuré que vous êtes bien inscris à une **forge** par exemple [Github](https://github.com). :)
 
