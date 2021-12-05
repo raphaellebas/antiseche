@@ -6,10 +6,10 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
 
   - [Qu'est-ce que c'est Linux ?](#linux)
   - [Pourquoi utiliser le Terminal ?](#pourquoi-utiliser-le-terminal-)
-  - [Les différentes commandes apprises](#les-différentes-commandes-apprises)
+  - [Les différentes commandes apprises sur un terminal](#les-différentes-commandes-apprises-sur-un-terminal)
   - [C'est quoi Git?](#git)
   - [Pourquoi utiliser git ?](#pourquoi-utiliser-git-)
-  - [Les différentes commandes apprises](#les-différentes-commandes-apprises)
+  - [Les différentes commandes apprises sur git](#les-différentes-commandes-apprises-sur-git)
 
 # Linux
   
@@ -32,10 +32,10 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
 ### Les commandes simples MAIS utile !
 
 ```cd```
-Cette commande permet de se mettre automatiquement dans son espace utilisateur.
+ Cette commande permet de se mettre automatiquement dans son espace utilisateur.
 
 ```ls```
-Cette commande permet de lister le contenu d'un dossier.
+ Cette commande permet de lister le contenu d'un dossier.
 
 Resultat :
 ``` 
@@ -46,7 +46,7 @@ Resultat :
 > Il se peut que vous avez des fichiers invisible alors ajouter un -a après ls ça listera tout les fichiers y compris ceux qu'on ne voit pas.
     
 ```cd chemin/chemin```
-Cette commande permet de changer de dossier (en gros se déplacer dans les dossiers).
+ Cette commande permet de changer de dossier (en gros se déplacer dans les dossiers).
 
 Résultat :
 ```
@@ -57,7 +57,7 @@ Résultat :
 ```
 
 ```pwd```
-Cette commande permet d'afficher le chemin du dossier dans lequel on se trouve.
+ Cette commande permet d'afficher le chemin du dossier dans lequel on se trouve.
 
 Résultat : 
 ```
@@ -66,7 +66,7 @@ lua@DESKTOP-QECQM4H  ~  pwd
 ```
 
 ```cat```
-Cette commande permet d'afficher et de concaténer le contenu de fichiers.
+ Cette commande permet d'afficher et de concaténer le contenu de fichiers.
 
 > Si vous connaissez déjà le chemin de votre fichier vous pouvez faire directement un ```cat ~/chemin/fichier ``` .
 
@@ -77,7 +77,7 @@ Résultat :
 ```
 
 ```clear```
-Cette commande permet de nettoyer le terminal.
+ Cette commande permet de nettoyer le terminal.
 
 Résultat :
 
@@ -91,7 +91,7 @@ Résultat :
 [![https://github.com/raphaellebas/antiseche/blob/master/images/ctrl-c.gif](./images/ctrl-c.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/ctrl-c.gif)
 
 ```exit```
-Cette commande permet de quitter le shell ou une session en cours.
+ Cette commande permet de quitter le shell ou une session en cours.
 
 Résultat :
 
@@ -103,10 +103,10 @@ lua@DESKTOP-QECQM4H  ~
 ```
 
 ```man```
-Cette commande permet d'afficher le manuel.
+ Cette commande permet d'afficher le manuel.
 
 ```mkdir nomdudossier```
-Cette commande permet de créer un dossier.
+ Cette commande permet de créer un dossier.
 
 Résultat :
 
@@ -121,7 +121,7 @@ Résultat :
 ```
 
 ```nano```
-Cette commande permet d'ouvrir l'éditeur de texte intégré dans le terminal.
+ Cette commande permet d'ouvrir l'éditeur de texte intégré dans le terminal.
 
 Résultat : 
 
@@ -130,7 +130,7 @@ Résultat :
 > Vous pouvez créer un nouveau fichier en faisant juste ```nano newfile``` suivit de son extension de fichier exemple : ```.txt,.html,.css, etc...```.
 
 ```rmdir nomdudossier```
-Cette commande permet de supprimer un dossier.
+ Cette commande permet de supprimer un dossier.
 
 Résultat : 
 
@@ -139,14 +139,14 @@ Résultat :
 > Si vous avez créer des dossiers dans le dossiers parent et que vous voulez le supprimer faites ```rmdir nomdudossierparent/dossierquejesouhaitesupprimer ``` il supprimera alors le dossier enfant visé.
 
 ```rm -v nomduchemin/nomduchemin```
-Cette commmande permet de supprimer tout les fichiers d'un chemin.
+ Cette commmande permet de supprimer tout les fichiers d'un chemin.
 
 Résultat :
 
 [![https://github.com/raphaellebas/antiseche/blob/master/images/removeallfiles.png](./images/removeallfiles.png)](https://github.com/raphaellebas/antiseche/blob/master/images/removeallfiles.png)
 
 ```touch nomdufichier.extension```
-Cette commande permet de créer un fichier.
+ Cette commande permet de créer un fichier.
 
 Résultat : 
 
@@ -155,7 +155,7 @@ Résultat :
 > Vous pouvez créer plusieurs fichiers en une seul commande ```touch readme.md,index.html,.style.css,script.jss``` il suffit juste de séparé les fichiers avec une virgule.
 
 ```mv nomdufichier chemin/```
-Cette commande permet de déplacer un fichier dans un autre chemin.
+ Cette commande permet de déplacer un fichier dans un autre chemin.
 
 Résultat : 
 
@@ -164,7 +164,7 @@ Résultat :
 > Vous pouvez déplacer le fichier au dossier parent il suffit juste d'ajouter ```../``` à la place d'un nom de dossier.
 
 ```mv oldname newname```
-Cette commande permet de rename un fichier
+ Cette commande permet de rename un fichier
 
 Résultat :
 
@@ -174,7 +174,7 @@ Résultat :
 > Pour celà ```mv nomdufichieroudossier .nomdufichieroudosier``` 
 
 ```find```
-Cette commande permet de chercher un fichier dans un répertoire.
+ Cette commande permet de chercher un fichier dans un répertoire.
 
 Résultat : 
 
@@ -188,7 +188,7 @@ lua@DESKTOP-QECQM4H  ~  find ./antisèche -name clear.gif
 
 ```ssh```
 
-Cette commande ```ssh``` (**Secure Shell**) permet de se **connecté** à un **server** en toute **sécurité**.
+ Cette commande ```ssh``` (**Secure Shell**) permet de se **connecté** à un **server** en toute **sécurité**.
 
 Résultat :
 
@@ -214,40 +214,40 @@ Résultat :
 > Avant de découvrir les commandes veuillez vous assuré que vous êtes bien inscris à une **forge** par exemple [Github](https://github.com). :)
 
 ```git config --global user.name TonNomUtilisateur ```
-Cette commande permet de configurer ton nom d'utilisateur.
+ Cette commande permet de configurer ton nom d'utilisateur.
 
 ```git config --global user.email JeSuisUnExemple@gmail.com```
-Cette commande permet de configurer ton email.
+ Cette commande permet de configurer ton email.
 
 ```git add nomdufichier```
-Cette commande permet d'ajouter le contenu de fichier.
+ Cette commande permet d'ajouter le contenu de fichier.
 
 ```git init```
-Cette commande permet d'initialisé git dans un dossier local.
+ Cette commande permet d'initialisé git dans un dossier local.
 
 > ```git add -A permet d'ajouter tout les fichiers à commit```
 
 ```git commit -m "Commentaire" ```
-Cette commande permet d'enregistrer les modifications dans le dépôt.
+ Cette commande permet d'enregistrer les modifications dans le dépôt.
 
 > Entre "" on s'en sert pour mettre des commentaire généralement on y mets souvent les derniers ajouts et/ou modifications.
 
 ```git push origin master ```
-Cette commande permet de publier des chargements locaux et les charger vers le dépôt.
+ Cette commande permet de publier des chargements locaux et les charger vers le dépôt.
 
 > git push --> la commande origin --> le remote --> master le dépôt.
 
 ```git branch nomdebranch```
-Cette commande permet de créer une branche.
+ Cette commande permet de créer une branche.
 
 ```git branch ```
-Cette commande permet de vérifier la liste des branche.
+ Cette commande permet de vérifier la liste des branche.
 
 ```git switch nomdelabranch```
-Cette commande permet de changer de branche.
+ Cette commande permet de changer de branche.
 
 ```git branch -d nomdelabranch ```
-Cette commande permet de supprimer une branche.
+ Cette commande permet de supprimer une branche.
 
 
 ### Git Fetch
@@ -257,10 +257,10 @@ Cette commande permet de supprimer une branche.
 > Voici quelques exemple de la commande ```git fetch ```.
 
 ```git fetch remote```
-Cette commande permet de fetche toutes les branches du dépôt et télécharge en même temps tous les commits et fichier utile depuis l'autre dépôt
+ Cette commande permet de fetche toutes les branches du dépôt et télécharge en même temps tous les commits et fichier utile depuis l'autre dépôt
 
 ```git fetch <nomduremote> <nomdelabranch> ```
-Cette commande va permettre de fetch uniquement la branche visée.
+ Cette commande va permettre de fetch uniquement la branche visée.
 
 
 ### Git Merge
@@ -269,4 +269,12 @@ Cette commande va permettre de fetch uniquement la branche visée.
   > Qu'est ce qu'un fork ? un fork constitue une simple copie d'un projet dans votre espace de nom personnel. Cela permet d'y apporter des modification mais publiquement. Ça permet d'y contrinuer de manière plus ouverte. 
 
 > Voici quelques exemple de la commande ```git merge ```
+
+```git merge --no-ff nomdelabranche ```
+Cette commande permet de merge une branche visée dans la branche courante.
+
+> /!\ Il se peut que vous rencontriez un soucis de merge si vous êtes plusieurs à ajoutez des modifications dans le même fichier et que vous l'ajoutez en même temps dans le dépôt distant ! Git ne comprendra pas quelle version prendre.
+
+#### Don't Give UP !
+Même si une erreur de merge se présente il y a toujours moyen de corriger ça. 
 
