@@ -273,6 +273,7 @@ Résultat :
 
  ```git init```
  Cette commande permet d'initialisé git dans un dossier local.
+ > On peut créer un directement un git init avec un nom de projet comme celà ```git init nomduprojet``` ça créera directement un dossier avec un git initialisé. 
 
 ```git add nomdufichier```
  Cette commande permet d'ajouter le contenu de fichier.
@@ -303,6 +304,9 @@ Cette commande alternative est l'équivalent à ```git push -u origin master```
 
 ```git branch -d nomdelabranch ```
  Cette commande permet de supprimer une branche.
+
+```rm -rf .git```
+ Cette commande permet de retiré l'initialisation git dans le dossier.
 
 
 ### Git Fetch
