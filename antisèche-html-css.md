@@ -21,4 +21,9 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
    / \
 
    Dans un document **head**(La tête) c'est la partie du document qui n'est pas affiché par le navigateur au chargement de la page, elle contient des informations comme par exemple le titre ```<title>```
-   de la page des liens **CSS** (La feuille de style) des liens pour le favicon (L'icon de la page qui apparaît dans les onglets) et des méta-données (Auteur du documents des mots clés qui décrit le documents etc..)
+   de la page des liens **CSS** (La feuille de style) des liens pour le favicon (L'icon de la page qui apparaît dans les onglets) et des méta-données (Auteur du documents des mots clés qui décrit le documents etc..) L'HTML est composé généralement de Tag (Balise en Français) ouvrantes et tag fermantes
+
+   exemple :
+
+   ```<p>Mon Chat fait meow</p>```
+   On peut voir que nous ouvrons la balise ```<p>``` qui est une balaise paragraphe "Mon chat fait meow" est le contenu et le ```</p>``` est la balise fermante.
