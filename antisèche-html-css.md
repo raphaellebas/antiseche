@@ -16,7 +16,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
   Voyons ça comme un corps humain : 
 
-   '|'-> Head (La tête)</br>
+   '|'-> Head (La tête)
    /|\-> Body (Le corps)</br>
    / \
 
