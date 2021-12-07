@@ -158,7 +158,7 @@ Résultat :
 
 [![https://github.com/raphaellebas/antiseche/blob/master/images/touch.gif](./images/touch.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/touch.gif)
 
-> Vous pouvez créer plusieurs fichiers en une seul commande ```touch readme.md,index.html,.style.css,script.jss``` il suffit juste de séparé les fichiers avec une virgule.
+> Vous pouvez créer plusieurs fichiers en une seul commande ```touch readme.md,index.html,style.css,script.jss``` il suffit juste de séparé les fichiers avec une virgule.
 
 ```mv nomdufichier chemin/```
  Cette commande permet de déplacer un fichier dans un autre chemin.
