@@ -16,8 +16,8 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
   Voyons ça comme un corps humain : 
 
-   '|' -> Head (La tête)</br>
-   /|\ -> Body (Le corps)</br>
+   '|'-> Head (La tête)</br>
+   /|\-> Body (Le corps)</br>
    / \
 
    Dans un document **head**(La tête) c'est la partie du document qui n'est pas affiché par le navigateur au chargement de la page, elle contient des informations comme par exemple le titre ```<title>```
