@@ -9,7 +9,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
 # HTML c'est quoi ?
 
-  HTML est un langage très simple crée en 1991 par [Tim Berners-Lee](https://fr.wikipedia.org/wiki/Tim_Berners-Lee) et aider par l'ingénieur [Robert Cailliau](https://fr.wikipedia.org/wiki/Robert_Cailliau) ce langage est composé **d'éléments appliquables** à des **fragments** de texte dans un document pour leur donner un sens différent (Est-ce un paragraphe, est-ce une liste ? est-ce une puce ? ou est-ce une partie de tableau ?),
+  HTML est un langage très simple crée en 1991 par [Tim Berners-Lee](https://fr.wikipedia.org/wiki/Tim_Berners-Lee) et aider par l'ingénieur [Robert Cailliau](https://fr.wikipedia.org/wiki/Robert_Cailliau)ce langage est composé **d'éléments appliquables** à des **fragments** de texte dans un document pour leur donner un sens différent (Est-ce un paragraphe, est-ce une liste ? est-ce une puce ? ou est-ce une partie de tableau ?),
   pour structurer un document en section logiques (a-t'il un en-tête ? est-il sur trois colonnes ? a-t'il un menu de navigation ?)
 
 ## Le corps d'une page HTML
@@ -27,3 +27,23 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
    ```<p>Mon Chat fait meow</p>```
    On peut voir que nous ouvrons la balise ```<p>``` qui est une balaise paragraphe "Mon chat fait meow" est le contenu et le ```</p>``` est la balise fermante.
+
+## Wireframe 
+  Le Wireframe un est shéma simple d'un site pas d'image pas de couleur, si vous voulez representer une image il suffit de faire une croix dans un rectangle ou cercle celà dépend la forme de l'image
+
+## Création d'un formulaire
+  
+  Grâce à la balise ```<form>``` nous pouvons créer des formulaires 
+
+  Le formulaire est composé de balise ```<label>``` et de balise ```input ```
+
+    exemple 
+  ```
+  <form>
+      <div>
+       <label for="lastname">Nom</label>
+            <input type="text" id="lastname" name="lastname"  pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Nom"  required>
+        </div>
+  </form>
+  ```
+> <input type="text" -> Le type de l'input est de type on lui donne l'id "lastname" on lui donne ensuite un pattern qui va prendre une expression régulière dans cette expression on dit qu'on autorise l'utilisateur à mettre des lettres en minuscules majuscules ou des accent on lui donne aussi un minimum de lettre à rentré donc 3 et un maximum donc 25 le title est une erreur qu'on va afficher au cas où il ne respect pas les conditions le placeholder (Espace reservé)  c'est un texte par défault qui est dans le champ.
