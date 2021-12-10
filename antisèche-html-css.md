@@ -36,14 +36,15 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
   Grâce à la balise ```<form>``` nous pouvons créer des formulaires 
 
   Le formulaire est composé de balise ```<label>``` et de balise ```input ```
-
-    exemple 
-  ```
-  <form>
+ exemple :
+  ```HTML
       <div>
-       <label for="lastname">Nom</label>
-            <input type="text" id="lastname" name="lastname"  pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" placeholder="Nom"  required>
+            <form>
+      
+                <label for="lastname">Nom</label>
+                <input type="text" id="lastname" name="lastname"  pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont                       autorisées" placeholder="Nom"  required>
+      
+             </form>
         </div>
-  </form>
   ```
 > <input type="text" -> Le type de l'input est de type on lui donne l'id "lastname" on lui donne ensuite un pattern qui va prendre une expression régulière dans cette expression on dit qu'on autorise l'utilisateur à mettre des lettres en minuscules majuscules ou des accent on lui donne aussi un minimum de lettre à rentré donc 3 et un maximum donc 25 le title est une erreur qu'on va afficher au cas où il ne respect pas les conditions le placeholder (Espace reservé)  c'est un texte par défault qui est dans le champ.
