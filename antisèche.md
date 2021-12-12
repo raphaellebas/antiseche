@@ -168,6 +168,9 @@ Résultat :
 [![https://github.com/raphaellebas/antiseche/blob/master/images/move.gif](./images/move.gif)](https://github.com/raphaellebas/antiseche/blob/master/images/move.gif)
 
 > Vous pouvez déplacer le fichier au dossier parent il suffit juste d'ajouter ```../``` à la place d'un nom de dossier.
+> Vous pouvez déplacer tout les fichiers en faisant un * si ces derniers sont à déplacer dans un dossier parent dans un autre contexte on veut déplacer tout les fichiers dans un dossier parent 
+>problèmtatique * va aussi prendre en compte le dossier enfant pour celà on va dire que dans notre dossier on a un fichier readme.md un hello.java et le dossier enfant qui s'appelle children pour 
+>déplacer ces deux fichiers on va faire   ```mv r* h* children/``` * remplace le reste du nom readme.md et hello.java
 
 ```mv oldname newname```
  Cette commande permet de rename un fichier
