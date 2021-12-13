@@ -272,7 +272,18 @@ Résultat :
  Cette commande permet de configurer ton nom d'utilisateur.
 
 ```git config --global user.email JeSuisUnExemple@gmail.com```
- Cette commande permet de configurer ton email.
+ Cette commande permet de configurer ton email.`$
+
+ ````ssh-keygen```
+ Cette commande permet de généré une clé public et une clé privée
+
+ ```eval $(ssh-agent)```
+ Cette commande va permette de rendre fonctionnel l'agent 
+ > L'agent ne possède pas encore de clé
+
+ ``` ssh-add ~/.ssh/<private_key_file>```
+ Dans cette commande nous allons ajouter la clé privé 
+ > cat ~/.ssh/id_rsa.pub va permettre d'afficher la clé public à copier [ici](https://github.com/settings/ssh/new) dans le champ **key**
 
  ```git init```
  Cette commande permet d'initialisé git dans un dossier local.
