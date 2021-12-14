@@ -116,12 +116,18 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
   <head>
     <meta charset="utf-8">
     <title>Mon expirimentation CSS</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/assets/css/style.css"> <!--<- Ici on fait appel au fichier style.css qui se trouve dans /assets/css/-->
   </head>
   <body>
     <h1>Hello World!</h1>
-    <p>Ceci est mon expirimentation du CSS</p>
+    <p>Ceci est mon expirimentation du CSS</p> 
   </body>
 </html>
-
 ```
+Résultat :
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/withoutcss.png?raw=true" alt ="Image représentant du HTML sans CSS">
+Dans notre exemple on veut lui donner une couleur, une taille ainsi qu'une police d'écriture
+> ATTENTION Si vous ajoutez ça à la balise <p> une couleur une taille ainsi qu'une police d'écriture TOUTES les balises <p> seront touchés.
+
+# Côté CSS
