@@ -6,7 +6,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
   - [L'introduction au HTML](#html-cest-quoi-)
   - [L'introduction au CSS](#css-cest-quoi-)
-
+  - [Co]
 
 # HTML c'est quoi ?
 
@@ -107,3 +107,21 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
   Le livre de recettes de disposition CSS contient différentes recettes pour mettre en place différentes dispositions courantes.
 
+
+## Comment ça fonctionne ?
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expirimentation CSS</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>Ceci est mon expirimentation du CSS</p>
+  </body>
+</html>
+
+```
