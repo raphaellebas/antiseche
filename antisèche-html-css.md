@@ -6,7 +6,6 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 
   - [L'introduction au HTML](#html-cest-quoi-)
   - [L'introduction au CSS](#css-cest-quoi-)
-  - [Co]
 
 # HTML c'est quoi ?
 
@@ -50,6 +49,45 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
   ```
 > <input type="text" -> Le type de l'input est de type on lui donne l'id "lastname" on lui donne ensuite un pattern qui va prendre une expression régulière dans cette expression on dit qu'on autorise l'utilisateur à mettre des lettres en minuscules majuscules ou des accent on lui donne aussi un minimum de lettre à rentré donc 3 et un maximum donc 25 le title est une erreur qu'on va afficher au cas où il ne respect pas les conditions le placeholder (Espace reservé)  c'est un texte par défault qui est dans le champ.
 
+## class
+ 
+ L'atribut universel class indique une liste de classes associées à l'élément courant. Les classes permettent de manipuler les éléments via CSS ou JavaScript en utilisant les sélecteur de classe ou de fonctions telles que document.getElementsByClassName
+
+ ## Comment créer une class en HTML?
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css"> 
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p class="expérimentation">Ceci est mon expérimentation du CSS</p> <!--On attribut à la balise P la class "expérimentation"--> 
+  </body>
+</html>
+```
+
+## id
+
+L'atribut universel id définit un identifiant qui doit être **unique** pour l'ensemble du document. Le but de cet attribut est de pouvoir identifier un élément lorsqu'on crée un lien avec un **fragment** et qu'on souhaite le manipuler avec un script ou qu'on le met en forme CSS.
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css"> 
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p id="expérimentation">Ceci est mon expérimentation du CSS</p> <!--On attribut à la balise P la l'id "expérimentation"--> 
+  </body>
+</html>
+```
 
 # CSS C'est quoi ?
 
@@ -115,12 +153,12 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mon expirimentation CSS</title>
+    <title>Mon expérimentation CSS</title>
     <link rel="stylesheet" href="/assets/css/style.css"> <!--<- Ici on fait appel au fichier style.css qui se trouve dans /assets/css/-->
   </head>
   <body>
     <h1>Hello World!</h1>
-    <p>Ceci est mon expirimentation du CSS</p> 
+    <p>Ceci est mon expérimentation du CSS</p> 
   </body>
 </html>
 ```
@@ -144,3 +182,93 @@ p{
 Résultat :
 
 <img src="https://github.com/raphaellebas/antiseche/blob/master/images/withcss.png?raw=true" alt="image représentant l'exemple avec CSS">
+
+## Ajouter du CSS avec une class 
+
+  Comme dans le cours plus haut sur les classes nous pouvons faire appelle à une class dans le CSS 
+
+  ```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>Ceci est mon expérimentation sans class</p>
+    <p class="expérimentation">Ceci est mon expérimentation du CSS avec une class</p> 
+    <p class="expérimentation2">Ceci est mon expérimentation du CSS avec une class</p> 
+  </body>
+</html>
+```
+
+On veut donner à notre class la couleur rouge et une taille de 32 px à la class expérimentation et la couleur bleue et la taille 5px à expérimentation2
+> Pour faire appelle à une classe dans du css on commence par un point et ensuite le nom de la class
+
+## Côté CSS
+
+```css
+.expérimentation{
+  color:red;
+  font-size:32px;
+}
+
+.expérimentation2{
+  color:blue;
+  font-size:5px;
+}
+
+```
+
+Résultat :
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/withclass.png?raw=true" alt="Image représentant deux balises avec deux classes différentes"> 
+
+Cette fois-ci on veut utiliser l'id mais on va aussi ajouter une class pour l'id expérimentation on va lui donner la couleur bleue avec une taille de 16px pour l'id expérimentation2 on va lui donner une couleur dégradé avec une taille de 32px et pour notre class on va lui donner donner une couleur jaune avec une taille de 64 et on va aussi également lui mettre une propriété qui va nous permettre de changer de couleur qunad on passe le curseur dessus
+
+  ```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>Ceci est mon expérimentation sans class</p>
+    <p id="expérimentation">Ceci est mon expérimentation du CSS avec un id</p> 
+    <p id="expérimentation2">Ceci est mon expérimentation du CSS avec un id</p>
+    <p class="expérimentation3">Ceci est mon exéirimentation du CSS avec une class</p> 
+  </body>
+</html>
+```
+>Pour faire appelle à un id dans un css on mets un # avant le nom
+
+## Côté CSS
+
+```CSS
+#experimentation{
+    color:blue;
+    font-size:16px;
+}
+
+#experimentation2{
+    background: linear-gradient(90deg, rgb(252, 0, 105) 0%, rgb(0, 119, 255) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:32px;
+}
+
+.experimentation3{
+    font-size: 64px;
+    color: rgb(252, 0, 105);
+}
+
+
+.experimentation3:hover{
+    color: rgb(0, 119, 255);
+}
+```
