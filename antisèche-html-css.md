@@ -224,7 +224,7 @@ On veut donner à notre class la couleur rouge et une taille de 32 px à la clas
 
 Résultat :
 
-<img src="https://github.com/raphaellebas/antiseche/blob/master/images/withclass.png?raw=true" alt="Image représentant deux balises avec deux classes différentes"> 
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/withclass.png" alt="Image représentant deux balises avec deux classes différentes"> 
 
 Cette fois-ci on veut utiliser l'id mais on va aussi ajouter une class pour l'id expérimentation on va lui donner la couleur bleue avec une taille de 16px pour l'id expérimentation2 on va lui donner une couleur dégradé avec une taille de 32px et pour notre class on va lui donner donner une couleur jaune avec une taille de 64 et on va aussi également lui mettre une propriété qui va nous permettre de changer de couleur qunad on passe le curseur dessus
 
@@ -272,3 +272,6 @@ Cette fois-ci on veut utiliser l'id mais on va aussi ajouter une class pour l'id
     color: rgb(0, 119, 255);
 }
 ```
+Résultat :
+  
+ <img src="https://github.com/raphaellebas/antiseche/blob/master/images/id-and-class.gif?raw=true" alt="Image représentant les id et la class">
