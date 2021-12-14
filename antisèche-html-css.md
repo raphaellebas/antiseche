@@ -141,4 +141,6 @@ p{
 }
 ```
 
-Résultat : 
+Résultat :
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/withcss.png?raw=true" alt="image représentant l'exemple avec CSS">
