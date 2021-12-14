@@ -5,6 +5,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 - ## Sommaire
 
   - [L'introduction au HTML](#html-cest-quoi-)
+  - [L'introduction au CSS](#css-cest-quoi-)
 
 
 # HTML c'est quoi ?
@@ -48,3 +49,61 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
         </div>
   ```
 > <input type="text" -> Le type de l'input est de type on lui donne l'id "lastname" on lui donne ensuite un pattern qui va prendre une expression régulière dans cette expression on dit qu'on autorise l'utilisateur à mettre des lettres en minuscules majuscules ou des accent on lui donne aussi un minimum de lettre à rentré donc 3 et un maximum donc 25 le title est une erreur qu'on va afficher au cas où il ne respect pas les conditions le placeholder (Espace reservé)  c'est un texte par défault qui est dans le champ.
+
+
+# CSS C'est quoi ?
+
+  ## Le CSS : Feuilles de style
+  
+  Le CSS est un des langages de la saint trinité du web ouvert, il a été standarisé par <a href="https://w3.org/Style/CSS/#specs">W3C</a>
+
+    Ce standard évolue sous 3 levels
+
+    Level 1 CSS1 est complètement obsolète
+
+    Level 2 CSS2 correspond à la recommandation 
+
+    Level 3 CSS3 il est découpé en modules plus petits, il est également en voie de standarisation.
+
+  ## C'est quoi les bases du CSS ?
+
+  Pour le bon fonctionnement le CSS possède des **unités** : 
+  
+  - Des Sélecteurs
+  - Des Propriétés
+  - On peut également écrire des règles
+  - Appliquer du CSS dans un document **HTML**
+  - Utiliser des longeurs
+  - Mettre des couleurs et encore pleins d'autres **unités**.
+
+  ## Nous pouvons également toucher au texte
+  
+  - Changer la police 
+  - Mettre en gras
+  - Mettre en italique
+  - Gérer les espaces entre les lignes et les lettres
+  - Ajouter des ombres portées etc.
+
+## Mettre en forme les boîtes en (en-US)
+
+  La mise en forme des boîtes en CSS sont un composant **clé** de la mise en page d'une page web.
+
+## Les  Concepteurs majeurs du CSS
+
+  - La syntaxe et les formes du langage 
+  - La spécifité et l'héritage
+  - Les unités et les valeurs CSS
+  - Le modèle de boîte et la fusion des marges (en-US)
+  - Le bloc conteneurs (en-US)
+  - L'empilement et le contexte de formatage de blocs
+  - Les concepts de valeur initiale, valeur calculée, valeur utilisées et valeur réelle
+  - Les propriétés raccourcies
+  - Les boîtes de flexibles CSS (flexbox)
+  - La grille CSS
+  - Les médias queries (requêtes media)
+  - Les animations
+
+## Le livres des recettes 
+
+  Le livre de recettes de disposition CSS contient différentes recettes pour mettre en place différentes dispositions courantes.
+
