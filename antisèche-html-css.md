@@ -127,7 +127,18 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 Résultat :
 
 <img src="https://github.com/raphaellebas/antiseche/blob/master/images/withoutcss.png?raw=true" alt ="Image représentant du HTML sans CSS">
-Dans notre exemple on veut lui donner une couleur, une taille ainsi qu'une police d'écriture
-> ATTENTION Si vous ajoutez ça à la balise <p> une couleur une taille ainsi qu'une police d'écriture TOUTES les balises <p> seront touchés.
+
+Dans notre exemple on veut lui donner une couleur, une taille ainsi qu'une police d'écriture Times New Roman', Times, serif
+> ATTENTION Si vous ajoutez ça à la balise ```<p>``` une couleur une taille ainsi qu'une police d'écriture TOUTES les balises ```<p>``` seront touchés.
 
 # Côté CSS
+
+```CSS
+p{
+    color: red;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+```
+
+Résultat : 
