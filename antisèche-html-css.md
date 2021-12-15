@@ -204,7 +204,7 @@ Résultat :
 </html>
 ```
 
-On veut donner à notre class la couleur rouge et une taille de 32 px à la class expérimentation et la couleur bleue et la taille 5px à expérimentation2
+On veut donner à notre class la couleur rouge et une taille de 32 px à la class expérimentation et la couleur bleu et la taille 5px à expérimentation2
 > Pour faire appelle à une classe dans du css on commence par un point et ensuite le nom de la class
 
 ## Côté CSS
@@ -226,7 +226,7 @@ Résultat :
 
 <img src="https://github.com/raphaellebas/antiseche/blob/master/images/withclass.png" alt="Image représentant deux balises avec deux classes différentes"> 
 
-Cette fois-ci on veut utiliser l'id mais on va aussi ajouter une class pour l'id expérimentation on va lui donner la couleur bleue avec une taille de 16px pour l'id expérimentation2 on va lui donner une couleur dégradé avec une taille de 32px et pour notre class on va lui donner donner une couleur jaune avec une taille de 64 et on va aussi également lui mettre une propriété qui va nous permettre de changer de couleur qunad on passe le curseur dessus
+Cette fois-ci on veut utiliser l'id mais on va aussi ajouter une class pour l'id expérimentation on va lui donner la couleur bleu avec une taille de 16px pour l'id expérimentation2 on va lui donner une couleur dégradé avec une taille de 32px et pour notre class on va lui donner donner une couleur jaune avec une taille de 64 et on va aussi également lui mettre une propriété qui va nous permettre de changer de couleur qunad on passe le curseur dessus
 
   ```HTML
 <!DOCTYPE html>
@@ -275,3 +275,195 @@ Cette fois-ci on veut utiliser l'id mais on va aussi ajouter une class pour l'id
 Résultat :
   
  <img src="https://github.com/raphaellebas/antiseche/blob/master/images/id-and-class.gif?raw=true" alt="Image représentant les id et la class">
+
+
+# La Cascade 
+
+La cascade des styles signifie que l'ordres d'apparition des règles dans le css à une importance quand deux règles ont la même spécificité c'est la dernière règle déclaré qui sera utilisé pour la mise en forme
+
+
+## Côté HTML
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <h1>Experimentation des règles en CSS</h1>
+  </body>
+</html>
+```
+
+## Côté CSS
+
+```CSS
+h1{
+  color: red;
+}
+
+h1{
+  color: blue;
+}
+```
+
+Résultat : 
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/rulesforCSS.png?raw=true" alt="Image montrant la règle CSS">
+
+## La spécificité
+
+Quand des règles avec deux sélecteurs différents s'appliquent sur un même élément, c'est le navigateur qui choisis la règle qui a la plus grande spécificité. La spécificité est mesuré essensiellement sur combien la sélection est précise.
+
+- Un sélecteur d'élément est un peu spécifique il cible tous les éléments d'un type donné dans la page son score est donc faible
+
+- Un sélecteur de class est plus spécifique dans la page il ne cible que les éléments dont l'attribut class à la valeur choisie son score est donc plus important
+
+## Côté HTML
+
+```HTML
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <h1 class="expirimentation">Experimentation des règles en CSS</h1>
+  </body>
+</html>
+```
+
+## Côté CSS
+
+```CSS
+h1{
+  color: red;
+  
+}
+
+.expirimentation{
+  color: blue;
+
+}
+```
+
+Résultat : 
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/specificiteCSS.png?raw=true" alt="Image montrant le résultat entre class et un selecteur d'élément">
+
+## L'Héritage
+
+L'héritage est lui aussi à comprendre dans le contexte, certaines valeurs pour une propriété CSS se transmettent dans des éléments parent vers leurs enfants, d'autres non.
+
+Dans notre exemple on a fixer une couleur rouge avec une taille de 32px à un mot bien précis pour le reste la couleur des éléments sera bleu avec une taille de 16px
+
+## Côté HTML
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <p>Ici la couleur est bleu et la taille est de 16px</p>
+    <p>MAIS on peut bien choisir une <span>cible</span> pour lui attribué la couleur rouge et la taille 32px.</p>
+  </body>
+</html>
+```
+
+## Côté CSS
+
+```CSS
+body{
+  color: blue;
+  font-size: 16px;
+}
+
+span{
+  color: red;
+  font-size: 32px;
+}
+```
+
+Résultat :
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/HeritageCSS.png?raw=true" alt="Image montrant le résultat en utilisant un span">
+
+> Certaines propriétés ne se transmettent pas par exemple si on attribut un ```width:50%;``` à un élément aucun de ses descendant n'aura une largeur diminuée de moitié par rapport à celle de son parent si c'était le cas l'usage du CSS serait particulièrement frustrant.
+
+## Ces concepts se combinent 
+
+Les 3 concepts combinés permettent de décider dans tous les cas quelle règle CSS s'applique à quel éléments.
+
+## Comprendre l'Héritage
+
+Dans l'exemple ci-dessous nous avons un ```<ul>``` contenant plusieurs niveaux de listes imbriquées avec : objet 1 objet 2 et objet 3
+nous voulons attribué une couleur Rose pour le texte une bordure de 2px en solid et une couleur noir avec un padding de 2em à la classe main
+Nous voulons ensuite attribué une couleur bleu clair avec un font-weight: bold pour la classe spécial 
+
+## Côté HTML
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mon expérimentation CSS</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    
+    <ul class="main">
+      <li>Objet 1</li>
+      <li>Objet 2
+          <ul>
+              <li>2.1</li>
+              <li>2.2</li>
+          </ul>
+      </li>
+      <li>Objet 3
+          <ul class="special">
+              <li>3.1
+                  <ul>
+                      <li>3.1.1</li>
+                      <li>3.1.2</li>
+                  </ul>
+              </li>
+              <li>3.2</li>
+          </ul>
+      </li>
+  </ul>
+  </body>
+</html>
+```
+
+## Côté CSS
+
+```CSS
+.main{
+  color: rgb(255, 0, 119);
+  border: 2px solid black;
+  padding: 2em;
+}
+
+.special{
+  color: rgb(0, 140, 255);
+  font-weight: bold;
+}
+```
+
+Résultat : 
+
+<img src="https://github.com/raphaellebas/antiseche/blob/master/images/understand-heritage.png?raw=true" alt="Image montrant l'héritage">
+
+
+<!--Source de documentation : https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance-->
