@@ -31,6 +31,9 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur le 
 ## Wireframe 
   Le Wireframe un est shéma simple d'un site pas d'image pas de couleur, si vous voulez representer une image il suffit de faire une croix dans un rectangle ou cercle celà dépend la forme de l'image
 
+## Création de ces composant
+  Faire des composant dans un wireframe différents , input, bouton,navbar, footer, aside, textarea, date etc.
+  
 ## Création d'un formulaire
   
   Grâce à la balise ```<form>``` nous pouvons créer des formulaires 
