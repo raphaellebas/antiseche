@@ -277,7 +277,7 @@ Résultat :
 ``` git clone LienDuRepos.com```
  Cette commande permet de cloner un repos 
 
- ````ssh-keygen```
+```ssh-keygen```
  Cette commande permet de généré une clé public et une clé privée
 
  ```eval $(ssh-agent)```
