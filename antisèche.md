@@ -10,6 +10,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
   - [C'est quoi Git?](#git)
   - [Pourquoi utiliser git ?](#pourquoi-utiliser-git-)
   - [Les différentes commandes apprises sur git](#les-différentes-commandes-apprises-sur-git)
+  - [L'utilisation de Node Version Manager (NVM)](#nvm-node-version-manager)
 
 # Linux
   
