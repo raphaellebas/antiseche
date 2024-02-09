@@ -35,9 +35,29 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
  Cette commande permet de se mettre automatiquement dans son espace utilisateur.
 > Vous pouvez aussi changer de direction juste en mettant les noms des dossiers ça marche aussi pour revenir en arrière en ajoutant juste ```../ à la place de cd ../```
 
+
 Résultat :
 
 [![https://github.com/raphaellebas/antiseche/blob/master/images/quickchange.png](./images/quickchange.png)](https://github.com/raphaellebas/antiseche/blob/master/images/quickchange.png)
+
+
+``` cd ~/```
+Permet de revenir dans notre répertoire courant
+
+Resultat : 
+[![https://github.com/raphaellebas/antiseche/blob/master/images/CommandCd.png](./images/CommandCd.png)](https://github.com/raphaellebas/antiseche/blob/master/images/CommandCd.png)
+
+```History``` Permet de voir l'historique taper dans le terminal
+
+Astuce : dans le terminal nous pouvons utiliser la commande CTRL+R pour faire du reverse research on tape la commande qu'on cherche puis tab
+
+OU
+
+taper ! suivis du numéro d'instruction 
+
+résultat : 
+
+[![https://github.com/raphaellebas/antiseche/blob/master/images/history.png](./images/history.png)](https://github.com/raphaellebas/antiseche/blob/master/images/history.png)
 
 ```ls```
  Cette commande permet de lister le contenu d'un dossier.
