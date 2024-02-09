@@ -295,7 +295,7 @@ Résultat :
 ```git add nomdufichier```
  Cette commande permet d'ajouter le contenu de fichier.
 
-> ```git add -A permet d'ajouter tout les fichiers à commit```
+```git add -A permet d'ajouter tout les fichiers à commit```
 
 ```git commit -m "Commentaire" ```
  Cette commande permet d'enregistrer les modifications dans le dépôt.
