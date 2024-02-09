@@ -274,6 +274,9 @@ Résultat :
 ```git config --global user.email JeSuisUnExemple@gmail.com```
  Cette commande permet de configurer ton email.`$
 
+``` git clone LienDuRepos.com```
+ Cette commande permet de cloner un repos 
+
  ````ssh-keygen```
  Cette commande permet de généré une clé public et une clé privée
 
