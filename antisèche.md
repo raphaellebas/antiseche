@@ -421,4 +421,22 @@ Même si une erreur de merge se présente il y a toujours moyen de corriger ça.
 ```git remote show nomduremote``` 
  Cette sous-commande permet d'afficher des informations détaillées sur la configuration du dépôt distant.
 
+--------------------
+
+# NVM (Node Version Manager)
+
+```nvm install version_de_node``` -> installe la version de node spécifié
+
+```nvm use version_de_node ``` -> utilise l'environnement de node spécifié
+
+```node --version ``` -> Vérifier si la version de node est bien celle que nous avons spécifié
+
+exemple : 
+
+```
+ nvm install 20.5 
+ nvm use 20.5
+ node --version -> doit affichier 20.5 
+ ```
+--------------------
  ## [Sommaire](#sommaire)
