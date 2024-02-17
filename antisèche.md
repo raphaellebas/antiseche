@@ -147,6 +147,9 @@ Résultat :
 
 ```
 
+```mkdir -p NomDuDossier1/NomDuDossier2```
+La commande mkdir permet de créer plusieurs dossiers simultanément. L'option -p est utilisée pour créer des répertoires parents si nécessaire.
+
 ```nano```
  Cette commande permet d'ouvrir l'éditeur de texte intégré dans le terminal.
 
