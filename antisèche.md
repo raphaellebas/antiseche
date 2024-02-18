@@ -11,6 +11,7 @@ Ce guide à pour but de faire une cure de rappel pour les poissons rouge sur les
   - [Pourquoi utiliser git ?](#pourquoi-utiliser-git-)
   - [Les différentes commandes apprises sur git](#les-différentes-commandes-apprises-sur-git)
   - [L'utilisation de Node Version Manager (NVM)](#nvm-node-version-manager)
+  - [Les raccourcis VSCode](#VSCode)
 
 # Linux
   
@@ -435,12 +436,31 @@ Même si une erreur de merge se présente il y a toujours moyen de corriger ça.
 
 ```node --version ``` -> Vérifier si la version de node est bien celle que nous avons spécifié
 
-exemple : 
-
-```
+``
  nvm install 20.5 
  nvm use 20.5
  node --version -> doit affichier 20.5 
- ```
+ ``
+
+--------------------
+# VSCode
+CTRL + o = open file
+
+CTRL + k then p = open folder
+
+CTRL + R = open projects 
+
+CTRL + SHIFT + % = open terminal
+
+CTRL + SHIFT + F = open search 
+
+CTRL + P = open command line 
+
+CTRL + P ensuite %mot = search the word
+
+CTRL + F = open search on file
+
+CTRL + SHIFT + N = Open new windows on local pc
+
 --------------------
  ## [Sommaire](#sommaire)
